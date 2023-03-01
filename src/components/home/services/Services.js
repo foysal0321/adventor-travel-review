@@ -36,7 +36,7 @@ const Services = () => {
          </div>
          <div className="seemore py-8">
             <Link to='/services'>
-            <button className='btn btn-outline w-52 lg:w-96'>See More</button>
+            <button className='btn btn-outline w-52 lg:w-96 mx-8 lg:mx-0'>See More</button>
             </Link> 
          </div>
            <div className="main py-10">
@@ -47,9 +47,9 @@ const Services = () => {
        
          <div className="section2 grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2">
             <div className="section2-img">
-                <img src="https://adventor.wpengine.com/wp-content/uploads/2021/07/image-caption-2.jpg" className='' alt="" data-aos="fade-left" />
+                <img src="https://adventor.wpengine.com/wp-content/uploads/2021/07/image-caption-2.jpg" className='' alt="" data-aos="fade-up" />
             </div>
-            <div className="section2-info " data-aos="fade-right">
+            <div className="section2-info " data-aos="fade-down">
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2">
                 <div className="value py-0">
                     <h1>Various Adventures </h1>

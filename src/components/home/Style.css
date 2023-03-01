@@ -1,21 +1,22 @@
 /* travel-tour */
 .travel-tour{
-    height: 520px;
     display: flex;
     flex-wrap: wrap;
     color: white;
     width: 100%;
-    background-color: rgb(10, 109, 122);
-    justify-content: space-between;
-    align-items: flex-end;
+    justify-content: space-around;
     margin: 0px 0px;
+}
+.tour-info-color{
+     background-color: rgb(10, 109, 122);
+     height: 520px;
 }
 .tour-info{
     height: 520px;
 }
 .tour-details{
     max-width: 500px;
-    border: 2px solid white;
+    border: 2px solid rgba(255, 255, 255, 0.52);
     padding: 12px;
     height: 350px;
     margin-top: 90px;
@@ -32,19 +33,19 @@
     font-size: 18px;
     letter-spacing: 3px;
 }
-
 .tour-img img{
-    width: 290px;
+    width: 301px;
     height: 260px;
 }
 .tour-img .imgs{
     display: flex;
     flex-wrap: wrap;
+
 }
 
 /*  */
 .main-section{
- 
+ overflow: hidden;
 }
 .section{
     display: flex;
@@ -52,7 +53,7 @@
     max-width: 1200px;
     margin: 0 auto;
     border-radius: 10px;
-   
+   overflow: hidden;
 }
 .section-info{
     max-width: 600px;
@@ -77,9 +78,22 @@ hr{
    margin-top: 70px;
 }
 .section-img img{
-    width: 600px;
+    max-width: 600px;
 }
 .section-img img:hover{
   scale: 1.0;
   transition: .5s;
+}
+
+@media screen and (max-width:480px) {
+    
+    .tour-details{
+        height: 419px;
+        margin-top: 30px;
+    }
+    .section-img img{
+        width: 320px;
+        
+    }
+    
 }

@@ -22,9 +22,9 @@ const Slider = () => {
         <button data-aos="fade-up"  className='btn btn-success mt-6 text-white'>View Adventures</button>
     </div>
     <div className="mp4">
-        <video autoPlay loop muted plays-inline className='black-video'>
-        <source src={water} />
-    </video>
+      <video src={water} 
+        autoPlay loop muted plays-inline className='black-video'>     
+     </video>
     </div>
     
     <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">

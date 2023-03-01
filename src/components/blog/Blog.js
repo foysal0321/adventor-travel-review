@@ -4,7 +4,7 @@ import './Blog.css'
 const Blog = () => {
     return (
         <div>
-            <div className="blog-header text-white">
+            <div className="blog-header text-white py-12">
                 <div className="header-info ">
                     <h1 className='text-3xl font-bold py-5 mx-2 lg:mx-20'>Some Features of the Experience of Travel : </h1>
                     <p className='mx-2 lg:mx-20'> . The Nervous Excitement  </p> <br />

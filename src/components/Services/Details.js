@@ -73,11 +73,6 @@ const Details = () => {
 
     return (
         <div>
-            
-            
-
-
-
             <div className="details  gap-5 shadow-sm mt-10">
                 <img src={data.img} className='' alt="Album" data-aos="fade-down"/>
                 <div className="details-info" data-aos="fade-up">
@@ -89,8 +84,8 @@ const Details = () => {
                 </div>
             </div>       
                 <h2 className='text-2xl py-4 font-semibold p-12'>Client review</h2>
-             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 py-3 p-12">
-             <div className="card w-80 bg-gray-100 shadow-sm userreview">  
+             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 py-3 p-3 lg:p-12">
+             <div className="card w-80 bg-slate-700 text-white shadow-sm userreview">  
                      <div className="flex">       
                     <img className='h-20 w-20' src='https://t4.ftcdn.net/jpg/02/90/27/39/360_F_290273933_ukYZjDv8nqgpOBcBUo5CQyFcxAzYlZRW.jpg' alt="" />    
                     <h2 className="card-title ml-3">
@@ -107,7 +102,7 @@ const Details = () => {
                    reviewData.map(d=> <div className=''>
                     {
                      data._id === d.service_id  ?                     
-                     <div className="card w-80 h-80 bg-gray-100 shadow-sm userreview">  
+                     <div className="card w-80 h-80  bg-slate-700 text-white shadow-sm userreview">  
                      <div className="flex">       
                     <img src={d.image} alt="" />    
                     <h2 className="card-title ml-3">

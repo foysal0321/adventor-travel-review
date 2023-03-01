@@ -1,17 +1,16 @@
 .blog-header{
-    height: 440px;
+    justify-content: space-evenly;
     display: flex;
     flex-wrap: wrap;
     width: 100%;
 }
 .header-info{
-    background-color: rgb(10, 109, 122);
-    width: 65%;
+    background-color: rgba(10, 109, 122, 0.622);
     height: 440px;
 }
 .blog-header img{
-  width: 35%;
     height: 440px;
+
 }
 .header-info p{
     font-size: 17px;
@@ -26,7 +25,7 @@
     flex-wrap: wrap;
 }
 .blog img{
-    max-width: 500px;
+    width: 500px;
 }
 .blog-info{
     max-width: 750px;
@@ -34,4 +33,10 @@
 .blog-info p{
     font-size: 18px;
     margin-top: 22px;
+}
+/* media */
+@media screen and (max-width:590px){
+    .blog img{
+        width: 340px;
+    }
 }

@@ -20,7 +20,7 @@
     margin: 0 auto; 
 }
 .section2-img img{
-max-width: 580px;
+max-width: 600px;
 height: 550px;
 border-radius: 6px;
 padding: 8px;
@@ -45,4 +45,12 @@ max-width: 750px;
 /* hero-sec */
 .hero{
     height: 500px;
+}
+
+/* media */
+@media screen and (max-width:580px){
+    .section2-img img{
+        width: 320px;
+    }
+    
 }
