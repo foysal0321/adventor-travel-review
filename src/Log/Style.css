@@ -1,0 +1,15 @@
+.signuppage{
+    max-width: 1250px;
+    margin: 0 auto;
+    
+}
+.signuppage img{
+    padding: 15px;
+    max-width: 630px;
+    height: 570px;
+}
+
+.signup{
+    max-width: 470px;
+    padding: 15px;
+}

@@ -1,0 +1,64 @@
+.video-item{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.40));
+    position: relative;
+}
+.black-video{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+.item1{
+    background: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.40)),url('https://www.fjordtours.com/media/7844/_dsc1242.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.item3{
+    background: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.40)),url('https://mymodernmet.com/wp/wp-content/uploads/2018/03/karl-shakur-travel-photos-1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.info{
+    color: white;
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 250px;
+    text-align: center;
+}
+.info h3{
+    font-size: 30px;
+    font-weight: 600;
+
+}
+.info h1{
+    font-size: 60px;
+    font-weight: 700;
+    transition: 0.5s;
+}
+.info p{
+    font-size: 18px;
+    font-weight: 400;
+
+}
+.info h1:hover{
+    -webkit-text-stroke: 2px #fff;
+    color: transparent;
+}
+
+
+
+
+.carousel-item img {
+    height: 800px;
+}
+.p4{
+    height: 800px;
+    width: 100%;
+     top:0;
+}
+

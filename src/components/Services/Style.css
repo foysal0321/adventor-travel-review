@@ -1,0 +1,24 @@
+.allservices .card img{
+    height: 380px;
+}
+.reviewform{
+    max-width: 900px;
+    margin: 0 auto;
+}
+/* details pages */
+.details{
+display: flex;
+flex-wrap: wrap;
+padding-left: 15px;
+}
+.details img{
+   width: 450px;
+    height: 430px;
+}
+.details-info{
+    max-width: 850px;
+}
+/* review */
+.userreview img{
+    height: 70px;
+}

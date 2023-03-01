@@ -1,0 +1,37 @@
+.blog-header{
+    height: 440px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.header-info{
+    background-color: rgb(10, 109, 122);
+    width: 65%;
+    height: 440px;
+}
+.blog-header img{
+  width: 35%;
+    height: 440px;
+}
+.header-info p{
+    font-size: 17px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.blog{
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.blog img{
+    max-width: 500px;
+}
+.blog-info{
+    max-width: 750px;
+}
+.blog-info p{
+    font-size: 18px;
+    margin-top: 22px;
+}

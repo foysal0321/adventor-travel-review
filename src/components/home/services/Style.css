@@ -1,0 +1,48 @@
+
+.card img{
+    height: 400px;
+}
+.services{
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.seemore{
+    max-width: 400px;
+    margin: 0 auto;
+}
+/* section2 */
+.main{
+     /* ackground-color: rgba(228, 226, 226, 0.115); */
+}
+.section2{
+    max-width: 1300px; 
+    margin: 0 auto; 
+}
+.section2-img img{
+max-width: 580px;
+height: 550px;
+border-radius: 6px;
+padding: 8px;
+}
+.section2-info{
+padding: 0px;
+max-width: 750px;
+
+}
+.value{
+    margin: 10px;
+}
+.value h1{
+    font-size: 30px;
+    font-weight: 600;
+    padding: 6px;
+}
+.value p{
+    font-size: 19px;
+    padding: 6px;
+}
+/* hero-sec */
+.hero{
+    height: 500px;
+}
